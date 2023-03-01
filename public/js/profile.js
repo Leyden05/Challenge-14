@@ -1,8 +1,8 @@
 const newFormHandler = async (event) => {
     event.preventDefault();
   
-    const name = document.querySelector('#blog-name').value.trim();
-    const description = document.querySelector('#blog-desc').value.trim();
+    const name = document.querySelector('#post-name').value.trim();
+    const description = document.querySelector('#post-desc').value.trim();
   
     if (name && description) {
       const response = await fetch(`/api/posts`, {
@@ -38,9 +38,9 @@ const newFormHandler = async (event) => {
   };
   
   document
-    .querySelector('.new-blog-form')
+    .querySelector('.new-post-form')
     .addEventListener('submit', newFormHandler);
   
   document
-    .querySelector('.blog-list')
+    .querySelector('.post-list')
     .addEventListener('click', delButtonHandler);

@@ -1,0 +1,29 @@
+body {
+    background-color: #8ecae6;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #023047;
+}
+
+h1 {
+  color:  #ffb703;
+  font-size: 100px;
+}
+
+main {
+    background-color: #219ebc;
+    border-radius: 25px;
+}
+
+a {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
