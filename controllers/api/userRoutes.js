@@ -28,9 +28,8 @@ router.post('/login', async (req, res) => {
                 message: 'beep bop Wrong email or password! boop'
             })
         return;
-        
-        }
-    const goodPassword = await userData.checkPassword(req.body.password);
+    }
+    const validPassword = await userData.checkPassword(req.body.password);
 
     if (!validPassword) {
         res.status(400).json({
@@ -47,6 +46,7 @@ router.post('/login', async (req, res) => {
     })
 
     } catch (err) {
+        console.log(err);
         res.status(400).json(err);
     }
 });

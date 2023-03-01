@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
             ]
         })
         
-        const posts = postMap.map((post) => post.get({ plain: true}));
+        const posts = postData.map((post) => post.get({ plain: true}));
 
         res.render('homepage', {
             posts,
@@ -66,6 +66,7 @@ router.get('/post/:id', withAuth, async (req, res) => {
       });
   
       const user = userData.get({ plain: true });
+      console.log(user);
   
       res.render('profile', {
         ...user,
