@@ -4,8 +4,8 @@
 ## Description
 This is a blog for all things gaming related. Come and spew about all of the different things in the gaming universe you know and love
 
-## Table of Contents
-
+## Screenshots
+![alt text](https://github.com/Leyden05/Challenge-14/blob/main/image.jpg?raw=true)
 
 ## Installation
 Installation is easy -- just head on over to the deployed application!
@@ -18,9 +18,6 @@ This application is under a M license.
 
 ## Contributions
 Thanks again to Dominique Nix and Darren Medrano for helping get the file structure down
-
-## Tests
-
 
 ## Improvements
 In the future, I'd love to add some bonus styling and functionality in regards to how users are able to interact with each other
