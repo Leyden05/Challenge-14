@@ -5,7 +5,7 @@
 This is a blog for all things gaming related. Come and spew about all of the different things in the gaming universe you know and love
 
 ## Screenshots
-![alt text](https://github.com/Leyden05/Challenge-14/blob/main/image.jpg?raw=true)
+![alt text](https://github.com/Leyden05/Challenge-14/blob/main/assets/sc_1.jpg?raw=true)
 
 ## Installation
 Installation is easy -- just head on over to the deployed application!
